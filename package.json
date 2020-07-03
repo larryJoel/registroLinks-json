@@ -2,9 +2,13 @@
   "name": "books",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node":"13.1.0"
+  },
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
